@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write</title>
+    <style>
+   
+        #heading {
+            background-color: #013D4D;
+            color: white;
+            text-align: center;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        
+        .container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            margin-top: 20px; 
+        }
+
+        
+        #title {
+            height: 40px;
+            width: 75%;
+            margin-bottom: 10px; 
+            padding: 5px; 
+            font-size: 20px;
+        }
+
+        
+        #blog {
+            height: 300px; 
+            width: 75%;
+            padding: 10px; 
+            font-size: 16px;
+            text-align: left; 
+            vertical-align: top; 
+            resize: none; 
+            line-height: 1.5; 
+            margin-top: 10px; 
+        }
+
+       
+        #Enter {
+            height: 40px;
+            width: 80px;
+            color: white;
+            background-color: #FFA726;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        
+        #Enter:hover {
+            background-color: #FF9800;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+        <h1>Write</h1>
+    </div>
+    <div class="container">
+        <input type="text" id="title" placeholder="Enter Title here ......">
+        <textarea id="blog" placeholder="Start blog"></textarea>
+        <button id="Enter">Enter</button>
+    </div>
+
+   
+</body>
+</html>
+<script src="write.js"></script>
